@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Data Scraper</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="app">
+        <h1>YouTube Data Scraper</h1>
+        <p>User Guide: <a href="https://stormideas.atlassian.net/wiki/x/mwBI8" target="_blank">How to use the YouTube Scraper extension</a> | Last updated: <span id="last-updated"></span></p>
+        <div id="api-selection">
+            <button id="official-api">Official Google API</button>
+            <button id="unofficial-api">Unofficial 3rd-Party API</button>
+        </div>
+        <div id="scrape-selection">
+            <button id="scrape-videos">Videos</button>
+            <button id="scrape-channels">Channels</button>
+        </div>
+        <div id="table-selection">
+            <button id="create-new-table">Create new table</button>
+            <button id="add-fields">Add fields to existing table</button>
+        </div>
+        <div id="scrape-options">
+            <!-- Additional options will be dynamically added based on previous selections -->
+        </div>
+        <div id="results">
+            <!-- Results will be displayed here after scraping -->
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
